@@ -611,6 +611,7 @@ ul {
     border: 2px solid #FF5400;
     margin-top: 25px;
     margin-bottom: 20px;
+    cursor: pointer;
 
 }
 
@@ -676,6 +677,49 @@ ul {
     margin-left: 35px;
 }
 
+
+.deals-des {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.touring {
+    margin-top: 130px;
+}
+
+
+.bottom {
+    margin-bottom: 160px;
+}
+
+
+.lefty {
+    transform: translate(70px);
+}
+
+.righty {
+    transform: translate(-490px);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.all {
+    width: 210px;
+    height: 52px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid #FF5400;
+    border-radius: 12px;
+    font-size: 16px;
+}
 
 
 
@@ -1071,7 +1115,8 @@ ul {
      }
 
      .tour-info {
-        margin-left: 10px;
+        margin-left: 13px;
+        margin-right: 13px;
         width: 303px;
         height: 267px;
         margin-top: 100px;
@@ -1119,6 +1164,26 @@ ul {
         margin-top: -5px;
      }
 
+
+     .righty {
+        margin-left: 13px;
+        margin-right: 13px;
+        transform: translate(1px);
+     }
+
+
+     .touring {
+        margin-top: 15px;
+     }
+
+     .bottom {
+        margin-bottom: 60px;
+     }
+
+
+     .button {
+        display: none;
+     }
 
 
 
