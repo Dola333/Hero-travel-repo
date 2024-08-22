@@ -721,6 +721,94 @@ ul {
     font-size: 16px;
 }
 
+.section {
+    display: flex;
+    gap: 45px;
+   
+    margin-bottom: 100px;
+
+}
+
+.sec-info > h1 {
+    font-size: 38px;
+    color: #131318;
+    font-weight: 600;
+    width: 448px;
+    height: 120px;
+    margin-left: 70px;
+}
+
+.sec-info > p {
+    font-size: 14px;
+    color: #5A5A5D;
+    width: 532px;
+    height: 52px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.sec-listed {
+    color: #131318;
+    font-size: 14px;
+    font-weight: 700;
+    width: 472px;
+    height: 52px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.sec-listed > li {
+    margin-top: 15px;
+}
+
+
+.sec-button {
+    width: 174px;
+    height: 52px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #FF5400;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.sec-image > img {
+    width: 610px;
+    height: 424px;
+    border-radius: 12px;
+}
+
+.sec-image > p {
+    position: absolute;
+    z-index: 1;
+    margin-top: 170px;
+    text-align: center;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 276px;
+    height: 72px;
+    margin-left: 165px;
+
+}
+
+.top-img > img {
+    width: 40px;
+    height: 40px;
+}
+.top-img {
+    position: absolute;
+    z-index: 1;
+    margin-top: -100px;
+    transform: translate(563px);
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+}
 
 
 
@@ -1185,6 +1273,73 @@ ul {
         display: none;
      }
 
+     .section {
+        flex-direction: column;
+        margin-top: -40px;
+     }
+
+
+     .sec-image > img {
+        width: 335px;
+        height: 200px;
+     }
+     .sec-image {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -90px;
+     }
+
+     .sec-info > h1 {
+        font-size: 20px;
+        margin-left: 10px;
+        width: 248px;
+        height: 60px;
+        font-weight: 700;
+     }
+
+     .sec-info > p {
+        margin-left: 10px;
+        font-size: 12px;
+        width: 335px;
+        height: 72px;
+     }
+
+     .sec-listed {
+        font-size: 10px;
+        width: 335px;
+        height: 160px;
+        margin-left: 30px;
+     }
+
+     .sec-button {
+        width: 174px;
+        height: 52px;
+        font-size: 14px;
+        margin-left: 10px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -130px;
+     }
+
+     .sec-image > p {
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 70px;
+        
+     }
+
+     .top-img > img {
+        width: 20px;
+        height: 20px;
+     }
+
+     .top-img {
+        width: 20px;
+        height: 20px;
+        transform: translate(310px);
+        margin-top: -50px;
+     }
 
 
 
