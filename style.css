@@ -152,7 +152,9 @@ img {
     
 }
 
-.find {
+
+
+.find-button {
     background-color: #FF5400;
     border-radius: 12px;
     border: 2px solid #FF5400;
@@ -160,12 +162,11 @@ img {
     width: 174px;
     height: 52px;
     font-size: 16px;
-    position: relative;
-    z-index: -1;
     cursor: pointer;
 }
 
-.find > a {
+
+.find-button > a {
     color:#e7e7f0;
     text-decoration: none;
 }
@@ -272,7 +273,7 @@ ul {
 }
 
 .destination > p {
-    font-size: 16px;
+    font-size: 18px;
     color: #1313188e;
     width: 643px;
     height: 52px;
@@ -748,7 +749,7 @@ ul {
 }
 
 .sec-info > p {
-    font-size: 14px;
+    font-size: 16px;
     color: #5A5A5D;
     width: 532px;
     height: 52px;
@@ -782,6 +783,10 @@ ul {
     font-size: 16px;
     margin-left: 70px;
     margin-top: -50px;
+}
+.sec-button >a {
+    text-decoration: none;
+    color: #e7e7f0;
 }
 
 .sec-image > img {
@@ -890,7 +895,13 @@ ul {
     font: 18px;
     margin-left: 35px;
     margin-top: 30px;
-   
+   cursor: pointer;
+}
+
+.sub > a {
+    text-decoration: none;
+    color: #e7e7f0;
+    font-size: 18px;
 }
 
 .saving {
@@ -955,7 +966,7 @@ ul {
 
 .foot-info > p {
     color: #5A5A5D;
-    font-size: 14px;
+    font-size: 16px;
     width: 769px;
     height: 52px;
     text-align: center;
@@ -966,9 +977,10 @@ ul {
     margin-top: 20px;
 }
 
-.footer-images > img {
+.footer-images> a > img {
     width: 24.89px;
     height: 22px;
+    cursor: pointer;
 }
 
 .footer-images {
@@ -989,6 +1001,134 @@ ul {
     font-size: 14px;
     color: #1313188e;
 }
+
+.form-list {
+    border: 2px solid rgb(30, 15, 116);
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 700px;
+    border-radius: 12px;
+    
+background-color: rgba(0, 0, 0, 0.836);
+color: #e7e7f0;
+margin-bottom: 100px;
+    
+}
+
+.sub-intro {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.fill {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-style: oblique;
+}
+
+.form-names {
+    font-size: 25px;
+    margin-left: 10px;
+    
+    
+}
+
+.form-box {
+    width: 350px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-list > form {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.email-box {
+ margin-left: 25px;
+}
+ .phone-box {
+    margin-left: 5px;
+ }
+
+ .address-box {
+    margin-left: 22px;
+    width: 800px;
+ }
+
+ .return-box {
+    margin-left: 33px;
+   }
+
+
+ 
+
+   .bookings-now {
+    width: 350px;
+    height: 40px;
+    border: 2px solid rgba(63, 122, 63, 0.726);
+    border-radius: 12px;
+    color: #e7e7f0;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(63, 122, 63, 0.726);
+    cursor: pointer;
+   
+    margin-top: 35px;
+    margin-left: 450px;
+    margin-right: 450px;
+   }
+
+   .bookings-now > a {
+    text-decoration: none;
+    color: #e7e7f0;
+   }
+
+   .all > a {
+    text-decoration: none;
+    color: #e7e7f0;
+   }
+
+
+   .sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+
+   .sub-div > h1 {
+
+    margin-top: 200px;
+    font-size: 55px;
+
+   }
+
+   .sub-div > h2 {
+    margin-top: 20px;
+    font-size: 28px;
+
+
+
+   }
+
+
+   .sub-div > p {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 35px;
+
+   }
 
 
 
@@ -1647,6 +1787,100 @@ ul {
      .footer-copy > p {
         font-size: 12px;
      }
+
+
+     .form-list {
+        border: 2px solid rgb(30, 15, 116);
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 930px;
+        border-radius: 12px;
+        
+    background-color: rgba(0, 0, 0, 0.836);
+    color: #e7e7f0;
+    margin-bottom: 100px;
+        
+    }
+    
+    .sub-intro {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .fill {
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 20px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        font-style: oblique;
+    }
+    
+    .form-names {
+        font-size: 16px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    .form-box {
+        width: 150px;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 12px;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    
+    .form-list > form {
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+    
+    .email-box {
+     margin-left: 20px;
+    }
+     .phone-box {
+        margin-left: 5px;
+     }
+    
+     .address-box {
+        margin-left: 22px;
+        width: 200px;
+     }
+    
+     .return-box {
+        margin-left: 2px;
+       }
+    
+    
+     
+    
+       .bookings-now {
+        width: 150px;
+        height: 40px;
+        border: 2px solid rgba(63, 122, 63, 0.726);
+        border-radius: 12px;
+        color: #e7e7f0;
+        font-weight: 800;
+        padding: 10px;
+        font-size: 16px;
+        background-color: rgba(63, 122, 63, 0.726);
+        cursor: pointer;
+       
+        margin-top: 25px;
+        margin-left: 60px;
+        margin-right: 50px;
+   
+       }
+    
+       .bookings-now > a {
+        text-decoration: none;
+        color: #e7e7f0;
+       }
 
 
 

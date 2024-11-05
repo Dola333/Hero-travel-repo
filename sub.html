@@ -3,65 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/9862e530dd.js" crossorigin="anonymous"></script>
-    <title>Hero Travel Repo</title>
+
+    <title>Hero-Travel-Subscription</title>
 </head>
 <body>
 
-   <!--header section-->
-    <header>
+    <h1 class="sub-intro">Your subscription is done!</h1>
 
-        <section class="header">
-            <div class="header-title">
-                
-                <img src="H (1).png" alt="">
-                
-                
-                <h1>Hero<span class="orange">Travel</span></h1>
-            
-            </div>
+   
+
+        
 
 
-            <div class="nav">
-                <nav>
-                    <ul class="lists">
-                        <li><a href="#"><span class="orange">Home</span></a></li>
-                        <li><a href="packages.html" target="_blank">Packages</a></li>
-                        <li><a href="testimonial.html" target="_blank">Testimonial</a></li>
-                        <li><a href="blog.html" target="_blank">Blog</a></li>
-                        <li><a href="contact.html" target="_blank">Contact</a></li>
-                        
-                    </ul>
-                </nav>
-            </div>
+       <form action="" class="form-list">
+        <h2 class="fill">Fill The Form To Book Your Trip Now!</h2>
+        <label for="firstname" class="form-names">First Name
+            <input type="text" name="firstname" class="form-box" id="firstname" maxlength="40" required>
 
-        </section>
-        <!--header-back-image-->
-        <section class="header-back-image">
-             <div class="header-info">
-               
-        </div>
-         <div class="header-in">
-            <h1>Explore Your Travel</h1>
-         
-            <p>Welcome to Hero Travel, your ultimate guide to unforgettable adventures, inspiring destinations, expert tips, and seamless travel planning worldwide.</p>
-         </div>
+            </label>
 
-         <div class="formal">
-           
-         </div>
-         <div class="formal-info">
-            <form action="action.page.php">
+            <label for="lastname" class="form-names">Last Name
+                <input type="text" name="lastname" class="form-box" id="lastname" maxlength="40" required>
+    
+                </label>
+                <br><br>
 
+                <label for="email" class="form-names"> Email ID
+                    <input type="email" name="email" id="email" maxlength="50" 
+                    class="form-box email-box" required>
+                </label>
 
-                <label for="country">
-                    <select name="country" id="country" class="country" name="country">
-                        <option value="where">Where Go</option>
+                <label for="phone" class="form-names"> Phone No:  
+
+                    <input type="tel" name="phone" id="phone" maxlength="15" 
+                    class="form-box phone-box" required>
+                </label>
+                <br> <br>
+
+                <label for="address" class="form-names"> Address
+                    <input type="text" name="address" id="address" maxlength="100" 
+                    class="form-box address-box" required>
+                </label>
+                <br> <br>
+                <label for="country-names" class="form-names">
+                    Destination
+                    <select name="country-names" id="country-names" class="form-box " name="country-names" required >
+                        <option value="e.g-Bangladesh">e.g-Bangladesh</option>
                         <option value="Afghanistan">Afghanistan</option>
                         <option value="Åland Islands">Åland Islands</option>
                         <option value="Albania">Albania</option>
@@ -308,9 +297,10 @@
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
                 </label>
-                <label for="when">
-                    <select name="when" id="when" class="country" name="when">
-                        <option value="when">When</option>
+                
+                <label for="Month" class="form-names">Select Month
+                    <select name="month" id="month" class="form-box" name="month" required>
+                        <option value="e.g-January">e.g-January</option>
                         <option value="january">January</option>
         
                         <option value="february">February</option>
@@ -327,487 +317,35 @@
         
                     </select>
                 </label>
-        
-                <label for="type">
-                    <select name="type" id="type" class="country" name="type">
-                        <option value="select">Select Type</option>
-                        <option value="staycation"> Stay Cation </option>
-                        <option value="sportsvacation">Sports Vacation</option>
-                        <option value=" beachvacation "> Beach Vacation </option>
-                        <option value="roadtripvacation">Road Trip Vacation</option>
-                        <option value="grouptravel">Group Travel</option>
-                        <option value="businesstour">Business tour</option>
-                    </select>
+                <br> <br>
+                <label for="departure-date" class="form-names">
+                    Departure Date
+                    <input type="date" name="departure-date" id="departure-date" class="form-box" required>
+
                 </label>
-        
-              <!--<button class="find"><a href="https://www.google.com/" target="_blank">
-                <i class="fa-solid fa-magnifying-glass"></i> Find Now</a></button>-->
-
-               <button class="find-button"><a href="https://en.wikipedia.org/wiki/Tourism" target="_blank">
-                <i class="fa-solid fa-magnifying-glass"></i> Find Now
-               </a></button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               <!-- <input type="text" name="text" id="text" placeholder="Where go" class="go"
-                >
-                
-              
-                
-                <input type="text" name="date" id="date" placeholder="When" class="date">
-                
-               <input type="text" name="range" id="range" placeholder="Select Type" class="range">
-                <button class="but-now"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
-            </form>-->
-            </div>
-         
-
-
-
-     
-        </section>
-
-
-
-    </header>
-
-
-
-
-
-<!--main section-->
-    <main>
-
-        <section>
-            <div class="popular">
-                <div class="popular-info">
-                    <h2>Our Popular Tours</h2>
-                    <p>Discover our popular tours, offering unforgettable experiences, breathtaking sights, and immersive adventures designed to captivate every traveler.</p>
-
-                    <ul>
-                        <li>Explore our curated selection of popular tours, featuring iconic landmarks, unique cultural experiences, and thrilling adventures for every traveler.</li>
-                        <li> Explore our curated selection of popular tours, featuring iconic landmarks, unique cultural experiences, and thrilling adventures for every traveler.</li>
-                        <li> Experience our popular tours, with captivating destinations.</li>
-                     
-                    </ul>
-                    <p>Thank you for exploring Hero Travel. We’re here to make your travel dreams a reality, offering unforgettable experiences for your next great adventure. </p>
-
-                        <button class="find-button left"> <a href="simple.html" target="_blank">Read More</a></button>
-
-                </div>
-                <div class="popular-image">
-                    <img src="Rectangle 4.png" alt="">
-                </div>
-            </div>
-        </section>
-
-
-        <section>
-            <div class="destination">
-                <h1>Choose Your Destination</h1>
-
-                <p>Find your ideal destination with Hero Travel’s expert recommendations, tailored itineraries, and inspiring travel guides for unforgettable experiences.</p>
-
-
-                
-                <!--first box-->
-                    <div class="mal-indo">
-                        <div class="mal">
-                            <p>Maldives</p>
-                            <img src="Rectangle 5.png" alt="">
-                        </div>
-                        <div class="indo">
-                            <p>Indonesia</p>
-                            <img src="Rectangle 8.png" alt="">
-                        </div>
-                    </div>
-                
-                    <!--second box-->
-
-                    <div class="sl-nm">
-                        <div class="slk">
-                            <p>Srilanka</p>
-                            <img src="Rectangle 6.png" alt="">
-                        </div>
-                        <div class="north">
-                            <p>North America</p>
-                            <img src="Rectangle 7.png" alt="">
-                        </div>
-                        <div class="kashmir">
-                            <p>Kashmir</p>
-                            <img src="Rectangle 9.png" alt="">
-                        </div>
-                    </div>
-                    <!--third box-->
-
-                    <div class="bd-ban">
-                        
-                        <div class="bds">
-                            <p>Bangladesh</p>
-                            <img src="Rectangle 11.png" alt="">
-                        </div>
-                        <div class="bans">
-                            <p>Bandarban</p>
-                            <img src="Rectangle 10.png" alt="">
-                        </div>
-                    </div>
-
-</div>
-        </section>
-    <!--choose us-->
-        <section>
-
-               <div class="choose">
-
-                <h1>Why Choose Us</h1>
-
-                <p>Choosing Hero Travel ensures an extraordinary journey with personalized itineraries, exceptional service, and unforgettable global experiences.</p>
-
-
-
-                <!--first box-->
-
-
-                <div class="hand-world">
-                    <div class="hand">
-                        <img src="hotel.png" alt="">
-                        <h3>Handpicked Hotels</h3>
-                        <p>Hero Travel offers a wide selection of hotels, ensuring exceptional service and quality. Plus, our price guarantee means you’ll always get the best deal.</p>
-
-                    </div>
-                    <div class="world">
-                        <img src="map.png" alt="">
-                        <h3>World Class Service</h3>
-                        <p>Hero Travel offers a wide selection of hotels, ensuring exceptional service and quality. Plus, our price guarantee means you’ll always get the best deal. </p>
-
-                    </div>
-                </div>
-
-
-                <!--third box-->
-
-                <div class="price">
-                    <img src="price.png" alt="">
-                    <h3>Best Price Guarantee</h3>
-                    <p> Hero Travel offers a wide selection of hotels, ensuring exceptional service and quality. Plus, our price guarantee means you’ll always get the best deal.</p>
-
-                </div>
-
- </div>
-</section>
-
-<!--deals-->
-
-<div class="deals">
-    <h1>Deals & Discounts</h1>
-    <p>Discover incredible deals and discounts with Hero Travel, making your dream vacations affordable and unforgettable every time.</p>
-    </div>
-
-<section class="deals-des">
-
-
-
-            <!--first image-->
-    
-               <div class="tour">
-                <img src="Group 39.png" alt="">
-                  <div class="tour-info">
-
-                  </div>
-                <div class="tour-inform">
-                    <!--clock-->
-                    <div class="tours-icon">
-                    <div class="info">
-                    <i class="fa fa-solid fa-clock checked"></i>
-                    <p>7 Day / 6 Night</p>
-                    </div>
-                    <!--people-->
-                    <div class="info">
-                        <i class="fa fa-solid fa-user-friends checked"></i>
-                        <p>7 Day / 6 Night</p>
-                        </div>
-                        <!--map-->
-                        <div class="info">
-                            <i class="fa fa-solid fa-map-marker-alt checked"></i>
-                            <p>7 Day / 6 Night</p>
-                            </div>
-                            </div>
-
-
-                            <!--h1 starts-->
-                            <div class="tours">
-                            <h1> Tour To Satorini </h1>
-                            <p>Experience the breathtaking beauty of Santorini, with stunning sunsets, crystal-clear waters, and charming villages waiting to be explored.</p>
-                                <h4 class="check">
-                                    Price: $1300-$1500
-                                </h4>
-
-                                <button class="book">
-                                    Book Now
-                                </button>
-                                </div>
-                </div>
-
-
-               </div>
-    
-    
-           <!--second box-->
-
-
-           <div class="tour touring">
-            <img src="Group 40.png" alt="">
-              <div class="tour-info righty">
-
-              </div>
-            <div class="tour-inform lefty">
-                <!--clock-->
-                <div class="tours-icon ">
-                <div class="info">
-                <i class="fa fa-solid fa-clock checked"></i>
-                <p>7 Day / 6 Night</p>
-                </div>
-                <!--people-->
-                <div class="info">
-                    <i class="fa fa-solid fa-user-friends checked"></i>
-                    <p>7 Day / 6 Night</p>
-                    </div>
-                    <!--map-->
-                    <div class="info">
-                        <i class="fa fa-solid fa-map-marker-alt checked"></i>
-                        <p>7 Day / 6 Night</p>
-                        </div>
-                        </div>
-
-
-                        <!--h1 starts-->
-                        <div class="tours">
-                        <h1> Tour To Maldives </h1>
-                        <p>Discover the Maldives' pristine beaches, vibrant coral reefs, and luxurious resorts for an unforgettable tropical paradise getaway.</p>
-                            <h4 class="check">
-                                Price: $1300-$1500
-                            </h4>
-
-                            <button class="book">
-                                Book Now
-                            </button>
-                            </div>
-            </div>
-
-
-           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           <!--third box-->
-
-
-           <div class="tour touring bottom">
-            <img src="Group 39.png" alt="">
-              <div class="tour-info">
-
-              </div>
-            <div class="tour-inform">
-                <!--clock-->
-                <div class="tours-icon">
-                <div class="info">
-                <i class="fa fa-solid fa-clock checked"></i>
-                <p>7 Day / 6 Night</p>
-                </div>
-                <!--people-->
-                <div class="info">
-                    <i class="fa fa-solid fa-user-friends checked"></i>
-                    <p>7 Day / 6 Night</p>
-                    </div>
-                    <!--map-->
-                    <div class="info">
-                        <i class="fa fa-solid fa-map-marker-alt checked"></i>
-                        <p>7 Day / 6 Night</p>
-                        </div>
-                        </div>
-
-
-                        <!--h1 starts-->
-                        <div class="tours">
-                        <h1> Tour To Dubai </h1>
-                        <p>Explore Dubai's dazzling skyline, luxurious shopping, and rich culture, offering an unforgettable adventure in a vibrant desert city.</p>
-                            <h4 class="check">
-                                Price: $1300-$1500
-                            </h4>
-
-                            <button class="book">
-                                Book Now
-                            </button>
-                            </div>
-            </div>
-
-
-           </div>
-
-
-
-           <div class="button">
-            <button class="all"><a href="blog.html"> See All Packages</a>
-               
+                <br> <br>
+                <label for="return-date" class="form-names">
+                    Return Date
+                    <input type="date" name="return-date" id="return-date" class="form-box return-box" required>
+
+                </label>
+
+                <br><br>
+               <!-- <label for="button">
+                    <input type="button" value="Book now" class="bookings-now"><a href="booking.html" target="_blank"></a></input>
+                </label>-->
+
+              <button class="bookings-now"><a href="booking.html" target="_blank"> Book Now</a>
             </button>
-           </div>
- </section>
+
+            </form>
 
 
-        <section id="myDiv">
-
-               <div class="section">
-                <!--section info-->
-                <div class="sec-info">
-                    <h1>A Simple Perfect Place To Get Lost</h1>
-                    <p>Explore breathtaking destinations effortlessly with Hero Travel. Plan your perfect adventure, book easily, and enjoy unforgettable experiences.
-                       </p>
-                    <ul class="sec-listed">
-                        <li>
-                           Discover new cultures, enjoy personalized recommendations, and create lasting memories with Hero Travel today.
-                        </li>
-                        <li>Discover new cultures, enjoy personalized recommendations, and create lasting memories with Hero Travel today.</li>
-                        </ul>
-                        
-
-                 
-             <button class="sec-button"><a href="https://www.youtube.com/watch?v=rn0nkEZdoRg" target="_blank"> See More</a>
 
 
-                </div>
-                <!--section image-->
-                <div class="sec-image">
-                   
-                    <p>Watch our mountains in Bangladesh</p>
-                     <img src="bd-mountain.png" alt="">
-                     <div class="top-img">
-                        <img src="Group 40071 (2).png" alt="">
-                     </div>
-
-                </div>
-               </div>
-
- </section>
-
- <section>
-            
-             <div class="news">
-                <!--news form-->
-                <div class="newers">
-                    <h3>Newsletter</h3>
-                    <p>Get your daily dose of travel news & tips. Sign up today!</p>
-                    <hr class="size">
-
-                    <form action="">
-
-                        <label for="name">
-                            <input type="text" name="name" id="name" placeholder="Enter your name" required class="named">
-                        </label> <br>
-                        <label for="email"> 
-                            <input type="email" name="email" id="email" placeholder="Enter your email" required class="named">
-
-                        </label> <br>
-
-                         <!-- <label for="subscribe">
-                            <input type="button" value="Subscribe" class="sub">
-                            <input type="button" value="Subscribe" class="sub"><a href="https://www.youtube.com/watch?v=bB-xXlEpTWU" target="_blank"></a></input>
-                          </label>-->
-
-                            <button class="sub"><a href="sub.html" target="_blank">Subscribe</a></button>
-                        </form>
 
 
-                </div>
-                <!--news image-->
-
-                <div class="news-image">
-                    <img src="Rectangle 8 (1).png" alt="">
-                    <div class="saving">
-                        <p>Travel.com</p>
-                        <h1>Save up to 70%</h1>
-                    </div>
-                </div>
-             </div>
-</section>
-  </main>
+  
     
-
-
-
-<!--footer section-->
-
-<footer>
-
-
-    <div class="footer">
-       <!--foot title-->
-        <div class="footer-heading">
-            <div class="foot-img">
-                <img src="H (1).png" alt="">
-            </div>
-            <div class="foot-title">
-                <h3>Hero <span class="orange">Travel</span></h3>
-            </div>
-        </div>
-
-        <!--foot-info-->
-
-        <div class="foot-info">
-            <p> With Hero Travel, your dream adventures are just a click away. Embrace the world, travel seamlessly, and make every journey extraordinary.</p>
-        </div>
-
-        <!--foot website icons-->
-
-        <div class="footer-images">
-          <a href="https://x.com/?lang=en" target="_blank"> <img src="twitter-back.png" alt=""></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="facebook-black.png" alt=""></a>
-           <a href="https://www.instagram.com/" target="_blank"> <img src="insta-black.png" alt=""></a>
-           <a href="https://www.reddit.com/?rdt=63525" target="_blank"> <img src="reddit-black.png" alt=""></a>
-
-            
-
-        </div>
-
-        <hr class="shape">
-
-
-        <div class="footer-copy">
-            <p>2024,All Rights Reserved</p>
-        </div>
-
-</div>
-
-
-</footer>
-
-
-
 </body>
 </html>
