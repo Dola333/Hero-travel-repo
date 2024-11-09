@@ -281,12 +281,12 @@ ul {
     margin-bottom: 70px;
 }
 
-.mal > img {
+.mal >a> img {
     width: 573px;
     height: 300px;
 }
 
-.indo > img {
+.indo >a> img {
     width: 573px;
     height: 300px;
 }
@@ -326,17 +326,17 @@ ul {
     justify-content: center;
 }
 
-.slk> img {
+.slk> a> img {
     width: 347px;
     height: 286px;
 }
 
-.north > img {
+.north > a> img {
     width: 474px;
     height: 286px;
 }
 
-.kashmir > img {
+.kashmir > a> img {
     width: 305px;
     height: 286px;
 }
@@ -380,7 +380,7 @@ ul {
     margin-top: 15px;
 }
 
-.bds > img{
+.bds >a> img{
     width:473px ;
     height:300px ;
 }
@@ -396,7 +396,7 @@ ul {
 }
 
 
-.bans > img {
+.bans >a>  img {
     width:673px ;
     height: 300px;
 }
@@ -731,6 +731,11 @@ ul {
     font-size: 16px;
 }
 
+.all > a {
+    text-decoration: none;
+    color: #e7e7f0;
+}
+
 .section {
     display: flex;
     gap: 45px;
@@ -1002,101 +1007,6 @@ ul {
     color: #1313188e;
 }
 
-.form-list {
-    border: 2px solid rgb(30, 15, 116);
-    margin-left: 40px;
-    margin-right: 40px;
-    height: 700px;
-    border-radius: 12px;
-    
-background-color: rgba(0, 0, 0, 0.836);
-color: #e7e7f0;
-margin-bottom: 100px;
-    
-}
-
-.sub-intro {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 35px;
-}
-
-.fill {
-    font-size: 32px;
-    font-weight: 500;
-    margin-left: 30px;
-    margin-top: 25px;
-    margin-bottom: 40px;
-    font-style: oblique;
-}
-
-.form-names {
-    font-size: 25px;
-    margin-left: 10px;
-    
-    
-}
-
-.form-box {
-    width: 350px;
-    height: 40px;
-    border: 2px solid black;
-    border-radius: 12px;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.form-list > form {
-    margin-left: 100px;
-    margin-right: 100px;
-    
-}
-
-.email-box {
- margin-left: 25px;
-}
- .phone-box {
-    margin-left: 5px;
- }
-
- .address-box {
-    margin-left: 22px;
-    width: 800px;
- }
-
- .return-box {
-    margin-left: 33px;
-   }
-
-
- 
-
-   .bookings-now {
-    width: 350px;
-    height: 40px;
-    border: 2px solid rgba(63, 122, 63, 0.726);
-    border-radius: 12px;
-    color: #e7e7f0;
-    font-weight: 800;
-    padding: 10px;
-    font-size: 16px;
-    background-color: rgba(63, 122, 63, 0.726);
-    cursor: pointer;
-   
-    margin-top: 35px;
-    margin-left: 450px;
-    margin-right: 450px;
-   }
-
-   .bookings-now > a {
-    text-decoration: none;
-    color: #e7e7f0;
-   }
-
-   .all > a {
-    text-decoration: none;
-    color: #e7e7f0;
-   }
 
 
    .sub-div {
